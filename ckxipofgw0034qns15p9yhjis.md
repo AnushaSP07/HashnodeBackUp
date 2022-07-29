@@ -1,0 +1,157 @@
+## Beginner's guide to GIT
+
+Hey **Programmer**!!!!
+
+You're here because you want to know more about the technical concepts. As a developer, I'm sure you heard about the word of GIT. This article will explain you in detail about the GIT.
+
+**Contents of the blog include:**
+
+- What is version Control System and its types?
+- What is GIT?
+- What is Repository?
+- How to create Repository?
+- What is PullRequest [PR]?
+- How to raise PullRequest [PR] and use of PullRequest [PR]?
+- What is readme.md file why do we use?
+
+**What is version Control System?
+**
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640247391669/WB1G2EeXf.png)
+
+Before you try to know about GIT,let's have a little understanding of Version Control system.
+-	Version control system is nothing but tracking and managing changes to software code.
+-	Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+-	Version control software keeps track of every modification to the code in a special kind of database.
+-	If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+
+**Types of Version control**
+
+There are three major types of Version Control System
+- Local Version Control Systems
+- Centralized Version Control Systems
+- Distributed Version Control Systems
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640247592126/h-L0fql9m.png)
+
+**Local Version Control System: **
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640247627033/XNme4_R6B.png)
+
+
+- A local version control system is a local database located on your local computer, in which every file change is stored as a patch. [ Where patch is nothing but a changes made to code]
+- Every patch set contains only the changes made to the file since its last version. 
+- In order to see what the file looked like at any given moment, it is necessary to add up all the relevant patches to the file in order until that given moment.
+
+**Centralized Version Control Systems:**
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640247670629/yD26skkIx.png)
+
+-	A centralized version control system has a single server that contains all the file versions.
+-	This enables multiple clients to simultaneously access files on the server, pull them to their local computer or push them onto the server from their local computer. 
+-	This allows for easy collaboration with other developers or a team.
+
+**Two things are required to make your changes visible to others which are: 
+** 
+•	You commit
+•	They update
+
+**Distributed Version Control System **
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640247723587/X7FLaKz3o.png)
+
+- Distributed version control systems contain multiple repositories. 
+- Each user has their own repository and working copy. Just committing your changes will not give others access to your changes. 
+- This is because commit will reflect those changes in your local repository and you 
+need to push them in order to make them visible on the central repository
+- Similarly, When you update, you do not get other’s changes unless you have first pulled those changes into your repository.
+
+**To make your changes visible to others, 4 things are required:** 
+ 
+•	You commit
+•	You push
+•	They pull
+•	They update
+
+**What is GIT?**
+- Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+-	Every git working directory is a full-fledged repository with complete history and full version-tracking capabilities, independent of network access or a central server.
+-	Git allows a team of people to work together, all using the same files. And it helps the team cope up with the confusion that tends to happen when multiple people are editing the same files.
+
+**What is Repository?**
+-	Repositories in GIT contain a collection of files of various different versions of a Project. 
+-	These files are imported from the repository into the local server of the user for further updating and modifications in the content of the file.
+
+**What is Git Cloning?**
+-	The process of copying the content from an existing Git Repository with the help of various Git Tools is termed as cloning. 
+-	Once the cloning process is done, the user gets the complete repository on his local machine.
+-	Git by default assumes the work to be done on the repository is as a user, once the cloning is done.
+
+**Users can also create a new repository or delete an existing repository. To delete a repository, the simpler way is to just delete the folder containing the repository.
+**
+
+
+**How to create Repository?**
+
+Creating Repository step by step without command:
+**Step 1: ** After successfully setting up GitHub account login to your account. You will see the screen as below.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640247954415/XWYfV7jJl.png)
+
+**Step 2:** Click on the new repository option.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640247970271/n2bpMP717.png)
+
+
+**Step 3: **After clicking new repository option, we will have to initialize some things like, naming our project, choosing the visibility etc. After performing these steps click Create Repository button.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640247996710/_6EcX-ZrI.png)
+
+**Step 4:** After clicking the button, we will be directed to below page. Right now the only file we have is a readme file.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640248034094/fAmKdMAtZ.png)
+
+**Step 5:** Now click on the “Upload files” button
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640248053909/r_yugK2cu.png)
+
+**Step 6:** Follow the steps mentioned in the Picture below and click “commit
+ change”
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640248101164/LMs1AxrC4.png)
+
+**Step 7: **Now you will see that all of our files uploaded in our github
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640248130911/hpCZkTeGD.png)
+
+**What is Pull Request [ PR ] in GIT?**
+-	The term pull is used to receive data from GitHub. 
+-	It fetches and merges changes from the remote server to your working directory. 
+-	The git pull command is used to pull a repository.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640248153768/ad59G3GXm.png)
+
+- Pull request is a process for a developer to notify team members that they have completed a feature. 
+- Once their feature branch is ready, the developer files a pull request via their remote server account. 
+- Pull request announces all the team members that they need to review the code and merge it into the master branch.
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640248173600/VLPQRrhq4.png)
+
+**What is readme.md file why do we use?
+**
+-	A README file is an essential guide that gives other developers a detailed description of your GitHub project.
+-	A good README helps your project to stand out from other projects and should be as good as your project itself.
+
+**The following are the general key components of a Readme file:**
+- **Include Your Project’s Title: 
+**This is the name of the project. It describes the whole project in few words and helps people understand the primary goal and aim.
+- **Write a Description: 
+**Your description is an essential part of your project. A well-maintained description allows you to show off your work to other developers as well as potential employers.
+- **How to Use Your Project: 
+**Provide instructions and examples so that users or contributors can use the project. This will make it easy for them so that if they encounter a problem, they will always have a place of reference.
+- **Include Credits: 
+**If you have worked on the project as a team, list your team members. You should also include their GitHub profiles.
+
+
+*Thank you for reading, Please like the article, It will encourage me to write more such articles. Do share your valuable suggestions, I appreciate your honest feedback!!
+*
