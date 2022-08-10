@@ -16,7 +16,7 @@ In this post let's learn some of the annotations used in Spring and Spring-Boot 
 
 
 ### @SpringBootApplication
-    - This is the entry point of spring application and is the class level annotation, the class contains this annotation and the main method.
+- This is the entry point of spring application and is the class level annotation, the class contains this annotation and the main method.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660150945342/Udh1M_QmW.png align="left")
 -	@ SpringBootApplication is equivalent to using @Configuration, @EnableAutoConfiguration, and @ComponentScan with their default attributes. 
