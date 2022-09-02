@@ -4,6 +4,8 @@
 
 In this post let's learn some of the commonly asked differences questions in Java interviews on core Java!!!
 
+I have created this blog by making tables using **HTML**  and **CSS** and captured the table of contents from the browser and attached to **Hashnode** blogs of **Java comparisons questions **blog post.
+
 ## **The contents of the blog include:**
 
 -   Difference between basic core java concepts.
