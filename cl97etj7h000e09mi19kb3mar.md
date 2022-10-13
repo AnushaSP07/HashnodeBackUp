@@ -1,4 +1,4 @@
-# Java 8 - Interview Questions and Answers - 1
+# Java 8 - Interview Questions & Answers - 1
 
 # Hey Reader,
 
