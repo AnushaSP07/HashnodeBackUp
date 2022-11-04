@@ -260,7 +260,8 @@ static boolean isPalindrome(String s, int i) {
 		if(i > s.length()/2) {
 			return true;
 		}
-		return s.charAt(i) == s.charAt(s.length() - i -1) && isPalindrome(s, i+1);
+		return s.charAt(i) == s.charAt(s.length() - i -1) &&
+               isPalindrome(s, i+1);
 	}
 
 input : madam, 0
