@@ -1,4 +1,4 @@
-## Pattern Printing Logic with Example in Java
+# Pattern Printing Logic with Example in Java
 
 # Hey Reader,
 
@@ -383,6 +383,32 @@ for(int i = inputSize; i > 0; i--){
     }
     System.out.println();
     count++;
+}
+``` 
+### 6. Decreasing Pattern with space
+
+```
+     *
+    **
+   ***
+  ****
+ *****
+******
+          
+inputSize = 6
+
+public static void printPattern(int inputSize){
+    for(int i = 0; i < n; i++){
+          int j=1;
+          while(j < n-i){
+              System.out.print(" ");
+              j++;
+          }
+          for(int k = j; k <=n; k++){
+              System.out.print("*");
+          }
+             System.out.println();
+       }
 }
 ``` 
 
