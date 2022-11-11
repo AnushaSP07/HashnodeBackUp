@@ -1,4 +1,4 @@
-## Search — Algorithm in JAVA
+# Search — Algorithm in JAVA
 
 Hey Reader!!!!
 
