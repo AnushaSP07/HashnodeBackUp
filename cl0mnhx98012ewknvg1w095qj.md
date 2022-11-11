@@ -1,4 +1,4 @@
-## Sorting — Algorithm in Java — 1
+# Sorting — Algorithm in Java — 1
 
 Hey Reader !!! In this post we will understand about the sorting methods of Data-Structure in Java
 
