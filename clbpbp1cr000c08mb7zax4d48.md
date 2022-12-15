@@ -20,10 +20,6 @@ In this article, let us learn and know about the most useful and popular Messagi
         
 3.  Core terminologies of Apache Kafka
     
-4.  Installing Apache Kafka in Google Cloud Platform
-    
-5.  Installing Apache Kafka in the local Linux system.
-    
 
 ## Introduction to Apache Kafka
 
@@ -59,11 +55,11 @@ Kafka definition can be given as a highly scalable Fault-tolerant, scalable, dis
 
 In a typical messaging system, there are mainly 3 types of components.
 
-1.  **Producer / Publisher** \- producers are the client application and they send messages.
+1.  **Producer / Publisher** - producers are the client application and they send messages.
     
-2.  **Broker** \- The broker receives the message from the publisher and stores the messages in it.
+2.  **Broker** - The broker receives the message from the publisher and stores the messages in it.
     
-3.  **Consumer** \- Consumers read the message, that they received from the broker.
+3.  **Consumer** - Consumers read the message, that they received from the broker.
     
     Here, we also use **Kafka clusters -** Kafka clusters are nothing but a bunch of brokers running in a group of computers.
     
